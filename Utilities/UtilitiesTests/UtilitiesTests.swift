@@ -1,15 +1,15 @@
 //
-//  BaseProjectTests.swift
-//  BaseProjectTests
+//  UtilitiesTests.swift
+//  UtilitiesTests
 //
-//  Created by Mehmet Salih Aslan on 3.11.2020.
+//  Created by Mehmet Salih Aslan on 4.11.2020.
 //  Copyright © 2020 Mehmet Salih Aslan. All rights reserved.
 //
 
 import XCTest
-@testable import BaseProject
+@testable import Utilities
 
-class BaseProjectTests: XCTestCase {
+class UtilitiesTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
