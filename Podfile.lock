@@ -1,3 +1,24 @@
-PODFILE CHECKSUM: 3e87f71c42f5f3d8b26b40e529ae8ec2d46554a5
+PODS:
+  - Alamofire (5.3.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - TinyConstraints (4.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.3)
+  - IQKeyboardManagerSwift (~> 6.5)
+  - TinyConstraints (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+
+PODFILE CHECKSUM: 3d07f8cf680e6f85fddeecfd68a5eba69faab0c6
 
 COCOAPODS: 1.10.0
