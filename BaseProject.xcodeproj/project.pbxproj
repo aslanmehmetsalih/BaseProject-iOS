@@ -12,7 +12,6 @@
 		7AFC729D2551FA1800B30789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC729C2551FA1800B30789 /* AppDelegate.swift */; };
 		7AFC729F2551FA1800B30789 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC729E2551FA1800B30789 /* SceneDelegate.swift */; };
 		7AFC72A12551FA1800B30789 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC72A02551FA1800B30789 /* ViewController.swift */; };
-		7AFC72A42551FA1800B30789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFC72A22551FA1800B30789 /* Main.storyboard */; };
 		7AFC72A62551FA1A00B30789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFC72A52551FA1A00B30789 /* Assets.xcassets */; };
 		7AFC72A92551FA1A00B30789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFC72A72551FA1A00B30789 /* LaunchScreen.storyboard */; };
 		7AFC72B42551FA1A00B30789 /* BaseProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC72B32551FA1A00B30789 /* BaseProjectTests.swift */; };
@@ -39,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0AD4618E7EA1EBE8DCCEF6BA /* Pods-BaseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.release.xcconfig"; path = "Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A588C62EA483BF76055A722 /* Pods-BaseProject.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.development.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.development.xcconfig"; sourceTree = "<group>"; };
 		2D18BB336B2BEE2C2E30B0FE /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		5D335F952D153252D67D7CB3 /* Pods_BaseProject_BaseProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject_BaseProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63848529626C428DB1A4B715 /* Pods-BaseProject-BaseProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject-BaseProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-BaseProject-BaseProjectUITests/Pods-BaseProject-BaseProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +46,6 @@
 		7AFC729C2551FA1800B30789 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFC729E2551FA1800B30789 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7AFC72A02551FA1800B30789 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7AFC72A32551FA1800B30789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AFC72A52551FA1A00B30789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AFC72A82551FA1A00B30789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AFC72AA2551FA1A00B30789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +55,11 @@
 		7AFC72BA2551FA1A00B30789 /* BaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFC72BE2551FA1A00B30789 /* BaseProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProjectUITests.swift; sourceTree = "<group>"; };
 		7AFC72C02551FA1A00B30789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFC72E02551FC3300B30789 /* Info-Debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Debug.plist"; sourceTree = "<group>"; };
+		7AFC72E52551FC3900B30789 /* Info-Development.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Development.plist"; sourceTree = "<group>"; };
+		7CCB22CB28D4B8E8C4857052 /* Pods-BaseProject-BaseProjectUITests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject-BaseProjectUITests.development.xcconfig"; path = "Target Support Files/Pods-BaseProject-BaseProjectUITests/Pods-BaseProject-BaseProjectUITests.development.xcconfig"; sourceTree = "<group>"; };
 		85EEDEF91B8548A2BFF72A03 /* Pods-BaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EE74B72D7103B4200056E66 /* Pods-BaseProjectTests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.development.xcconfig"; path = "Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.development.xcconfig"; sourceTree = "<group>"; };
 		A0DB94EB2E126EC0B6A87989 /* Pods-BaseProject-BaseProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject-BaseProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-BaseProject-BaseProjectUITests/Pods-BaseProject-BaseProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E3FA1C4CBFB3C111DD5A0794 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E83B12C789D88BDF8AEBEB9D /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,13 +119,11 @@
 		7AFC729B2551FA1800B30789 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				7AFC729C2551FA1800B30789 /* AppDelegate.swift */,
-				7AFC729E2551FA1800B30789 /* SceneDelegate.swift */,
+				7AFC72DC2551FBFC00B30789 /* AppDelegate */,
+				7AFC72DB2551FBF800B30789 /* Configurations */,
 				7AFC72A02551FA1800B30789 /* ViewController.swift */,
-				7AFC72A22551FA1800B30789 /* Main.storyboard */,
 				7AFC72A52551FA1A00B30789 /* Assets.xcassets */,
 				7AFC72A72551FA1A00B30789 /* LaunchScreen.storyboard */,
-				7AFC72AA2551FA1A00B30789 /* Info.plist */,
 			);
 			path = BaseProject;
 			sourceTree = "<group>";
@@ -145,6 +146,49 @@
 			path = BaseProjectUITests;
 			sourceTree = "<group>";
 		};
+		7AFC72DB2551FBF800B30789 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC72DF2551FC1400B30789 /* Development */,
+				7AFC72DE2551FC1000B30789 /* Debug */,
+				7AFC72DD2551FC0B00B30789 /* Release */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		7AFC72DC2551FBFC00B30789 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC729E2551FA1800B30789 /* SceneDelegate.swift */,
+				7AFC729C2551FA1800B30789 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7AFC72DD2551FC0B00B30789 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC72AA2551FA1A00B30789 /* Info.plist */,
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		7AFC72DE2551FC1000B30789 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC72E02551FC3300B30789 /* Info-Debug.plist */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		7AFC72DF2551FC1400B30789 /* Development */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC72E52551FC3900B30789 /* Info-Development.plist */,
+			);
+			path = Development;
+			sourceTree = "<group>";
+		};
 		DBF57CA68880BD6211571426 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,8 +208,10 @@
 				63848529626C428DB1A4B715 /* Pods-BaseProject-BaseProjectUITests.release.xcconfig */,
 				85EEDEF91B8548A2BFF72A03 /* Pods-BaseProjectTests.debug.xcconfig */,
 				0AD4618E7EA1EBE8DCCEF6BA /* Pods-BaseProjectTests.release.xcconfig */,
+				1A588C62EA483BF76055A722 /* Pods-BaseProject.development.xcconfig */,
+				7CCB22CB28D4B8E8C4857052 /* Pods-BaseProject-BaseProjectUITests.development.xcconfig */,
+				9EE74B72D7103B4200056E66 /* Pods-BaseProjectTests.development.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -277,7 +323,6 @@
 			files = (
 				7AFC72A92551FA1A00B30789 /* LaunchScreen.storyboard in Resources */,
 				7AFC72A62551FA1A00B30789 /* Assets.xcassets in Resources */,
-				7AFC72A42551FA1800B30789 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,14 +454,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7AFC72A22551FA1800B30789 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7AFC72A32551FA1800B30789 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7AFC72A72551FA1A00B30789 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -552,12 +589,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WJEW78823;
-				INFOPLIST_FILE = BaseProject/Info.plist;
+				INFOPLIST_FILE = "BaseProject/Configurations/Debug/Info-Debug.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aslanmehmetsalih.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aslanmehmetsalih.baseproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -572,12 +609,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WJEW78823;
-				INFOPLIST_FILE = BaseProject/Info.plist;
+				INFOPLIST_FILE = BaseProject/Configurations/Release/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aslanmehmetsalih.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aslanmehmetsalih.baseproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -672,6 +709,125 @@
 			};
 			name = Release;
 		};
+		7AFC72F02551FC8B00B30789 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Development;
+		};
+		7AFC72F12551FC8B00B30789 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A588C62EA483BF76055A722 /* Pods-BaseProject.development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WJEW78823;
+				INFOPLIST_FILE = "BaseProject/Configurations/Development/Info-Development.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aslanmehmetsalih.baseproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Development;
+		};
+		7AFC72F22551FC8B00B30789 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE74B72D7103B4200056E66 /* Pods-BaseProjectTests.development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WJEW78823;
+				INFOPLIST_FILE = BaseProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aslanmehmetsalih.BaseProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseProject.app/BaseProject";
+			};
+			name = Development;
+		};
+		7AFC72F32551FC8B00B30789 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CCB22CB28D4B8E8C4857052 /* Pods-BaseProject-BaseProjectUITests.development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WJEW78823;
+				INFOPLIST_FILE = BaseProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aslanmehmetsalih.BaseProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaseProject;
+			};
+			name = Development;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -680,6 +836,7 @@
 			buildConfigurations = (
 				7AFC72C12551FA1A00B30789 /* Debug */,
 				7AFC72C22551FA1A00B30789 /* Release */,
+				7AFC72F02551FC8B00B30789 /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -689,6 +846,7 @@
 			buildConfigurations = (
 				7AFC72C42551FA1A00B30789 /* Debug */,
 				7AFC72C52551FA1A00B30789 /* Release */,
+				7AFC72F12551FC8B00B30789 /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -698,6 +856,7 @@
 			buildConfigurations = (
 				7AFC72C72551FA1A00B30789 /* Debug */,
 				7AFC72C82551FA1A00B30789 /* Release */,
+				7AFC72F22551FC8B00B30789 /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -707,6 +866,7 @@
 			buildConfigurations = (
 				7AFC72CA2551FA1A00B30789 /* Debug */,
 				7AFC72CB2551FA1A00B30789 /* Release */,
+				7AFC72F32551FC8B00B30789 /* Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
