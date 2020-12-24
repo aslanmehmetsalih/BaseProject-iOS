@@ -13,23 +13,9 @@ protocol HomeViewDataSource {}
 protocol HomeViewEventSource {}
 
 protocol HomeViewProtocol: HomeViewDataSource, HomeViewEventSource {
-    func firstButtonTapped()
-    func secondButtonTapped()
-    func thirdButtonTapped()
+
 }
 
 final class HomeViewModel: BaseViewModel<HomeRouter>, HomeViewProtocol {
  
-    func firstButtonTapped() {
-        router.pushFirst()
-    }
-    
-    func secondButtonTapped() {
-        router.pushSecond()
-    }
-    
-    func thirdButtonTapped() {
-        router.pushThird()
-    }
-    
 }

@@ -6,8 +6,5 @@
 //  Copyright © 2020 Mehmet Salih Aslan. All rights reserved.
 //
 
-final class HomeRouter: Router, HomeRouter.Routes {
-    typealias Routes = FirstRoute
-        & SecondRoute
-        & ThirdRoute
+final class HomeRouter: Router {
 }
