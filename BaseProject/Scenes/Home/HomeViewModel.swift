@@ -17,5 +17,5 @@ protocol HomeViewProtocol: HomeViewDataSource, HomeViewEventSource {
 }
 
 final class HomeViewModel: BaseViewModel<HomeRouter>, HomeViewProtocol {
- 
+    
 }

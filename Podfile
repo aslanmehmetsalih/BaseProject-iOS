@@ -24,6 +24,8 @@ target 'BaseProject' do
   pod "TinyConstraints", '~> 4.0'
   pod "IQKeyboardManagerSwift", '~> 6.5'
   
+  pod 'SwiftLint', '~> 0.42'
+  
   target 'BaseProjectTests' do
     inherit! :search_paths
     # Pods for testing

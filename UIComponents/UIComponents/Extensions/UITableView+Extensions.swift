@@ -8,7 +8,7 @@
 
 import UIKit
 
-//swiftlint:disable fatal_error
+// swiftlint:disable fatal_error
 public extension UITableView {
     func register<T: UITableViewCell>(_: T.Type) where T: ReusableView {
         register(T.self, forCellReuseIdentifier: T.defaultReuseIdentifier)
@@ -39,4 +39,4 @@ public extension UITableView {
         return cell
     }
 }
-//swiftlint:enable fatal_error
+// swiftlint:enable fatal_error

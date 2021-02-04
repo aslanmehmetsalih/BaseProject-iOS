@@ -27,5 +27,3 @@ extension HomeRoute where Self: RouterProtocol {
         open(navigationController, transition: transition)
     }
 }
-
-
