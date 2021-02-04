@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '11.0'
+platform :ios, '12.1'
 
 # Comment the next line if you don't want to use dynamic frameworks
 use_frameworks!
@@ -18,7 +18,7 @@ target 'BaseProject' do
   # Pods for BaseProject
   
   # Network
-  pod 'Alamofire', '~> 5.3'
+  pod 'Alamofire', '~> 5.4'
   
   # Helper
   pod "TinyConstraints", '~> 4.0'
